@@ -1,0 +1,54 @@
+body {
+  background-color: #fdfcf7;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.text-title {
+  font-family: Georgia, serif;
+  color: #123524;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #123524 !important;
+}
+.navbar .nav-link, .navbar .navbar-brand {
+  color: #fdfcf7 !important;
+}
+.navbar .nav-link:hover {
+  color: #c0a060 !important;
+}
+
+/* Tombol */
+.btn-primary {
+  background-color: #123524;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #0f2b1c;
+}
+.btn-success {
+  background-color: #c0a060;
+  border: none;
+  color: #fff;
+}
+.btn-success:hover {
+  background-color: #a8894f;
+}
+.btn-danger {
+  background-color: #800020;
+  border: none;
+}
+.btn-danger:hover {
+  background-color: #5c0017;
+}
+
+/* Table */
+.table thead {
+  background-color: #123524;
+  color: #fdfcf7;
+}
+.table tbody tr:nth-child(odd) {
+  background-color: #f9f6ef;
+}
